@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="Calculator.css"/>
+    <script type="text/javascript" src="Caclulator.js"></script>
+</head>
+<body>
+    <!--
+        Not My Image! Image to be removed in the future after button placement is adjusted
+        <img  id="CalculatorImage" src="../images/Calculator.jpg"/>
+        -->
+
+
+
+
+
+    <div id="LargeRectangle"></div>
+    <div id="MediumRectangle"></div>
+    <div id="SmallRectangle"></div>
+    <img id="CalculatorImageWords" src="../images/CalculatorWords.jpg" />
+    <img id="CalculatorSidesLeft" src="../images/CalculatorSides.jpg" />
+    <img id="CalculatorSidesRight" src="../images/CalculatorSides.jpg" />
+    <img id="CalculatorMirror" src="../images/Calculator.jpg" />
+
+    <form>
+
+        <input type="button" id="OneButton" onclick="ClearLeadingZero(document.getElementById('InputOutput').value); IsOnAddOne(ItsON)" name="OneButton" value="1" />
+        <input type="button" id="TwoButton" onclick="ClearLeadingZero(document.getElementById('InputOutput').value); IsOnAddTwo(ItsON) " name="TwoButton" value="2" />
+        <input type="button" id="ThreeButton" onclick="ClearLeadingZero(document.getElementById('InputOutput').value); IsOnAddThree(ItsON)" name="ThreeButton" value="3" />
+        <input type="button" id="FourButton" onclick="ClearLeadingZero(document.getElementById('InputOutput').value); IsOnAddFour(ItsON)" name="FourButton" value="4" />
+        <input type="button" id="FiveButton" onclick="ClearLeadingZero(document.getElementById('InputOutput').value); IsOnAddFive(ItsON)" name="FiveButton" value="5" />
+        <input type="button" id="SixButton" onclick="ClearLeadingZero(document.getElementById('InputOutput').value); IsOnAddSix(ItsON)" name="SixButton" value="6" />
+        <input type="button" id="SevenButton" onclick="ClearLeadingZero(document.getElementById('InputOutput').value); IsOnAddSeven(ItsON)" name="SevenButton" value="7" />
+        <input type="button" id="EightButton" onclick="ClearLeadingZero(document.getElementById('InputOutput').value); IsOnAddEight(ItsON) " name="EightButton" value="8" />
+        <input type="button" id="NineButton" onclick="ClearLeadingZero(document.getElementById('InputOutput').value); IsOnAddNine(ItsON)" name="NineButton" value="9" />
+        <input type="button" id="ZeroButton" onclick="ClearLeadingZero(document.getElementById('InputOutput').value); IsOnAddZero(ItsON) " name="ZeroButton" value="0" />
+
+        <input type="button" id="DecimalButton" name="DecimalButton" onclick="IsOnAddDecimal(ItsON)" value="." />
+        <input type="button" id="OnButton" name="OnButton" onclick="document.getElementById('InputOutput').value = InputOutputReset; InputOutputStorage = 0; InputOutputChoice = 0; InputOutputPercent = 0; ItsON = 1; MRC = 0" value="ON/C" />
+        <input type="button" id="MRCButton" name="MRCButton" onclick="mrcClicked(ItsON); InputOutputChoice = 6" value="MRC" />
+        <input type="button" id="MMinusButton" name="MMinusButton" onclick="MminusClicked(ItsON)" value="M-" />
+        <input type="button" id="MPlusButton" name="MPlusButton" onclick="MplusClicked(ItsON)" value="M+" />
+        <input type="button" id="PlusMinusButton" name="PlusMinusButton" onclick="plusMinusClicked(ItsON)" value="+/-" />
+        <input type="button" id="SQRTButton" name="SQRTButton" onclick="InputOutputChoice = 5" value="&#8730" />
+        <input type="button" id="PercentButton" name="PercentButton" onclick="InputOutputPercent = 1" value="%" />
+
+        <input type="button" id="EqualsButton" name="EqualsButton" onclick="Operations((document.getElementById('InputOutput').value), InputOutputStorage, InputOutputChoice, InputOutputPercent); InputOutputStorage = InputOutputReset; InputOutputPercent = 0" value="=" />
+
+        <input type="button" id="PlusButton" name="PlusButton" onclick="InputOutputStorage = document.getElementById('InputOutput').value; InputOutputChoice = 1; InputOutputReset = 1" value="+" />
+        <input type="button" id="MinusButton" name="MinusButton" onclick="InputOutputStorage = document.getElementById('InputOutput').value; InputOutputChoice = 2; InputOutputReset = 1" value="-" />
+        <input type="button" id="MultiplyButton" name="MultiplyButton" onclick="InputOutputStorage = document.getElementById('InputOutput').value; InputOutputChoice = 3; InputOutputReset = 1" value="x" />
+        <input type="button" id="DivideButton" name="DivideButton" onclick="InputOutputStorage = document.getElementById('InputOutput').value; InputOutputChoice = 4; InputOutputReset = 1" value="/" />
+
+        <input type="text" id="InputOutput" value=" " readonly />
+        <p id="Copyright">Terry Edwards &copy 2020</p>
+
+        <p id="Reference">Reference Calculator Image</p>
+    </form>
+</body>
+</html>

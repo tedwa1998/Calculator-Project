@@ -1,0 +1,623 @@
+﻿body
+{
+}
+
+table {
+    border:groove;
+}
+
+#Copyright {
+    position: absolute;
+    top: 384px;
+    left: 35px;
+    font: 16;
+}
+
+#Reference{
+    position: absolute;
+    top: 384px;
+    left: 265px;
+    font: 16;
+}
+
+#CalculatorImageWords {
+    position: absolute;
+    height: 55px;
+    width: 173px;
+    background-color: #263c75;
+    top: 136px;
+    left: 25px;
+    opacity: 1;
+}
+
+#CalculatorSidesLeft {
+    position: absolute;
+    height: 34px;
+    width: 20px;
+    background-color: #263c75;
+    top: 102px;
+    left: 25px;
+    opacity: 1;
+}
+
+#CalculatorSidesRight {
+    position: absolute;
+    height: 34px;
+    width: 20px;
+    background-color: #263c75;
+    top: 102px;
+    left: 180px;
+    opacity: 1;
+}
+
+#CalculatorMirror {
+    position:absolute; 
+    top:49px; 
+    left:250px;
+    WIDTH:210px; 
+    HEIGHT:355px;
+}
+
+#LargeRectangle {
+    position: absolute;
+    height: 305px;
+    width: 175px;
+    background-color: #263c75;
+    top: 84px;
+    left: 25px;
+    opacity: 1;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: -9px 9px 5px #757a9b;
+}
+
+#MediumRectangle {
+    position: absolute;
+    height: 175px;
+    width: 161px;
+    background-color: #263c75; 
+    top: 194px;
+    left: 30px;
+    opacity: 1;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: ridge;
+    border-width: thin;
+    border-color: black;
+}
+
+
+
+#buttonText {
+    font-size: 30px;
+    position: absolute;
+    top: -9px;
+    left: 9px;
+    color: #FFF;
+}
+
+#CalculatorImage {
+    position:absolute; 
+    top:49px; 
+    left:200px;
+    WIDTH:210px; 
+    HEIGHT:355px;
+}
+
+
+#ZeroButton {
+    position: absolute;
+    top: 342px;
+    left: 71px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: 900;
+    width: 31px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+}
+
+#OneButton {
+    position: absolute;
+    top: 313px;
+    left: 35px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: 900;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+}
+
+#TwoButton {
+    position: absolute;
+    top: 313px;
+    left: 71px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: 900;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+}
+
+#ThreeButton {
+    position: absolute;
+    top: 313px;
+    left: 106px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: 900;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+}
+
+#FourButton {
+    position: absolute;
+    top: 285px;
+    left: 35px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: 900;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+}
+
+#FiveButton {
+    position: absolute;
+    top: 285px;
+    left: 71px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: 900;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+}
+
+#SixButton {
+    position: absolute;
+    top: 285px;
+    left: 106px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: 900;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+}
+
+#SevenButton {
+    position: absolute;
+    top: 257px;
+    left: 35px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: 900;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+}
+
+#EightButton {
+    position: absolute;
+    top: 257px;
+    left: 71px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: 900;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+}
+
+#NineButton {
+    position: absolute;
+    top: 257px;
+    left: 106px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: 900;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+}
+
+#DecimalButton {
+    position: absolute;
+    top: 342px;
+    left: 106px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: 900;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 0px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+}
+
+#OnButton {
+    position: absolute;
+    top: 342px;
+    left: 35px;
+    background-color: #c21a34;
+    color: white;
+    font-size: 8px;
+    font-weight: 200;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 1px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+    border-color: black;
+}
+
+#MRCButton {
+    position: absolute;
+    top: 228px;
+    left: 36px;
+    background-color: #c21a34;
+    color: white;
+    font-size: 8px;
+    font-weight: 200;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+    border-color: black;
+}
+
+#MMinusButton {
+    position: absolute;
+    top: 228px;
+    left: 71px;
+    background-color: #c21a34;
+    color: white;
+    font-size: 8px;
+    font-weight: 200;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+    border-color: black;
+}
+
+#MPlusButton {
+    position: absolute;
+    top: 228px;
+    left: 106px;
+    background-color: #c21a34;
+    color: white;
+    font-size: 8px;
+    font-weight: 200;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+    border-color: black;
+}
+
+#PlusMinusButton {
+    position: absolute;
+    top: 199px;
+    left: 36px;
+    background-color: #c21a34;
+    color: white;
+    font-size: 8px;
+    font-weight: 200;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 10px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+    border-color: black;
+}
+
+#SQRTButton {
+    position: absolute;
+    top: 199px;
+    left: 71px;
+    background-color: #c21a34;
+    color: white;
+    font-size: 8px;
+    font-weight: 200;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 15px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+    border-color: black;
+}
+
+#PercentButton {
+    position: absolute;
+    top: 199px;
+    left: 106px;
+    background-color: #c21a34;
+    color: white;
+    font-size: 8px;
+    font-weight: 200;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 10px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+    border-color: black;
+}
+
+#EqualsButton {
+    position: absolute;
+    top: 313px;
+    left: 154px;
+    background-color: #c21a34;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    width: 32px;
+    height: 51px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+    border-color: black;
+}
+
+#PlusButton {
+    position: absolute;
+    top: 285px;
+    left: 154px;
+    background-color: #c21a34;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+    border-color: black;
+}
+
+#MinusButton {
+    position: absolute;
+    top: 257px;
+    left: 154px;
+    background-color: #c21a34;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+    border-color: black;
+}
+
+#MultiplyButton {
+    position: absolute;
+    top: 228px;
+    left: 154px;
+    background-color: #c21a34;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 7px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+    border-color: black;
+}
+
+#DivideButton {
+    position: absolute;
+    top: 199px;
+    left: 154px;
+    background-color: #c21a34;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    text-align: left;
+    line-height: 12px;
+    padding-Left: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px black;
+    border-color: black;
+}
+
+#InputOutput {
+    position: absolute;
+    top: 105px;
+    left: 45px;
+    height: 21px;
+    width: 129px;
+    background-color: white;
+    color: black;
+    font-size: 19px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 2px black;
+    text-align: right;
+    unicode-bidi: bidi-override;
+    direction: RTL;
+}
